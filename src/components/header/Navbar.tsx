@@ -8,7 +8,7 @@ const navLink: any = [
 
 const Navbar = () => {
   return (
-    <ul className="flex gap-4 items-center">
+    <ul className="flex gap-8 items-center font-metropolis text-base">
       {navLink.map((item: any) => (
         <li key={item.id}>{item.display}</li>
       ))}
